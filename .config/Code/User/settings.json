@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.activityBar.location": "bottom",
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "chat.agentsControl.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "none",
+    "qt-core.additionalQtPaths": [
+        {
+            "name": "Qt-5.15.18-linux-g++_from_PATH",
+            "path": "/usr/bin/qmake"
+        }
+    ],
+    "qt-qml.doNotAskForQmllsDownload": true,
+    "chat.tools.urls.autoApprove": {
+        "https://docs.github.com/en/rest/projects/projects": {
+            "approveRequest": false,
+            "approveResponse": true
+        },
+        "https://python.langchain.com": true,
+        "https://langchain-ai.github.io": {
+            "approveRequest": true,
+            "approveResponse": false
+        },
+        "https://github.com": {
+            "approveRequest": false,
+            "approveResponse": true
+        }
+    },
+    "terminal.integrated.fontFamily": "'MesloLGS Nerd Font Mono'",
+    "editor.fontFamily": "'MesloLGS Nerd Font Mono', 'Droid Sans Mono', monospace",
+    "claudeCode.preferredLocation": "sidebar",
+    "claudeCode.disableLoginPrompt": true,
+    "editor.rulers": [
+        80,
+    ],
+}
