@@ -13,10 +13,17 @@ environment {
 debug {
     // Allows notification actions and window activation from Noctalia.
     honor-xdg-activation-with-invalid-serial
+
+    strict-new-window-focus-policy
 }
 
 hotkey-overlay {
     skip-at-startup
+}
+
+cursor {
+    xcursor-theme "Bibata-Modern-Classic"
+    xcursor-size 20
 }
 
 recent-windows {

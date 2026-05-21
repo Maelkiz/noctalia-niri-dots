@@ -1,11 +1,8 @@
 {
-    "workbench.colorTheme": "Tokyo Night Storm",
     "workbench.activityBar.location": "bottom",
-    "window.menuBarVisibility": "compact",
-    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "toggle",
     "workbench.navigationControl.enabled": false,
     "chat.agentsControl.enabled": false,
-    "workbench.statusBar.visible": false,
     "workbench.startupEditor": "none",
     "qt-core.additionalQtPaths": [
         {
@@ -31,9 +28,16 @@
     },
     "terminal.integrated.fontFamily": "'MesloLGS Nerd Font Mono'",
     "editor.fontFamily": "'MesloLGS Nerd Font Mono', 'Droid Sans Mono', monospace",
-    "claudeCode.preferredLocation": "sidebar",
-    "claudeCode.disableLoginPrompt": true,
+    "claudeCode.preferredLocation": "panel",
     "editor.rulers": [
         80,
     ],
+    "workbench.editor.empty.hint": "hidden",
+    "chat.tools.terminal.autoApprove": {
+        "cargo test": true,
+        "cargo fmt": true
+    },
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "editor.wordWrap": "on",
+    "claudeCode.environmentVariables": [],
 }
