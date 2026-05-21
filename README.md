@@ -6,15 +6,15 @@ This is a bare repo containing the dotfiles for my [Noctalia](https://github.com
 
 ## ⚠️ Warning
 
-This setup **will overwrite existing files in your `$HOME` directory**.
+The provided installation instructions might **overwrite existing files in your `$HOME` directory**.
 
 If you have existing configs you don't want to lose, make sure to back them up first.
 
 ---
 
-## Assumptions
+## Prerequisites
 
-This setup of course assumes that you have both [Noctalia](https://github.com/noctalia-dev/noctalia-shell) and [Niri](https://github.com/niri-wm/niri) installed on your system.
+This setup assumes that you have [Noctalia](https://github.com/noctalia-dev/noctalia-shell) and [Niri](https://github.com/niri-wm/niri) installed on your system.
 
 ---
 
@@ -32,7 +32,7 @@ Convenient alias:
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 ```
 
-It lets you use interact with bare repo like this:
+It lets you use interact with the bare repo like this:
 ```bash
 dotfiles status
 dotfiles add .config/niri/config.kdl
@@ -50,4 +50,4 @@ git --git-dir=$HOME/.dotfiles --work-tree=$HOME push
 
 ---
 
-> See https://github.com/Maelkiz/sddm-theme for a matching sddm theme.
+> See https://github.com/Maelkiz/sddm-theme for my matching sddm theme.
